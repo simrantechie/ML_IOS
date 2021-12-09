@@ -1,4 +1,5 @@
 # ML_IOS
+## Example project which uses Machine Learning frameworks.
 
 ## Features
 - Object Detection
