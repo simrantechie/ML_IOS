@@ -27,5 +27,5 @@
 - Vision
 - Speech
 
-## Frameworks
-MIT
+## License
+This project is under MIT License.
