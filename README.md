@@ -26,3 +26,6 @@
 - Vision
 - Speech
 
+
+## Author
+Simranjeet Kaur 
