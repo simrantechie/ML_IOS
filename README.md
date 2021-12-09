@@ -26,3 +26,6 @@
 - CoreML
 - Vision
 - Speech
+
+## Frameworks
+MIT
