@@ -1,0 +1,6 @@
+framework module Pods_ML_IOS {
+  umbrella header "Pods-ML_IOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
