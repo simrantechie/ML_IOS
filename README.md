@@ -25,7 +25,3 @@
 - CoreML
 - Vision
 - Speech
-
-
-## Author
-Simranjeet Kaur 
