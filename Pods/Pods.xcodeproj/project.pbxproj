@@ -14,11 +14,10 @@
 
 /* Begin PBXFileReference section */
 		18628A7C26B3ADEE557834AABA34A2B6 /* Pods-ML_IOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ML_IOS.modulemap"; sourceTree = "<group>"; };
-		3361ACC78B2B63BCF4F8D9AEEE5F0ACB /* Pods_ML_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ML_IOS.framework; path = "Pods-ML_IOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3361ACC78B2B63BCF4F8D9AEEE5F0ACB /* Pods_ML_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70EDB24BC52CA4D11E1C43DE05720733 /* Pods-ML_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_IOS.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		804CE88B717326EE0CB78CE4ACEC766F /* Pods-ML_IOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_IOS-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FCE1FE6DA6650C4F83BD257B998D5D2 /* Pods-ML_IOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ML_IOS-umbrella.h"; sourceTree = "<group>"; };
 		A56361D3DDA7AFA490E153D345ED800D /* Pods-ML_IOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ML_IOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		A93169A598918F81889F6E28EF7C32EB /* Pods-ML_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ML_IOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				92B70A82A1FCFB405A442D368C3404F2 /* Products */,
 				7EDC8A31698808E62AEB59F06EB5F18E /* Targets Support Files */,
