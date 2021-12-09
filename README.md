@@ -7,8 +7,8 @@
 - Audio Detection
 - Barcode Detection
 
-<img src="https://user-images.githubusercontent.com/66485679/145362141-4d123d7c-17d5-436a-8fd2-899f53fef0aa.png" width="200" height="400">        <img src="https://user-images.githubusercontent.com/66485679/145362858-ffdc9b5f-7546-4045-a5c0-253db3ea6708.png" width="200" height="400">       <img src="https://user-images.githubusercontent.com/66485679/145363452-aeaec503-ec3a-4945-90ae-ea0cb3c0ac45.png" width="200" height="400">   
-<img src="https://user-images.githubusercontent.com/66485679/145366089-36fe4163-a28c-4ea6-bcf3-c6467a88e0be.png" width="200" height="400">  <img src="https://user-images.githubusercontent.com/66485679/145366387-ad9f6fe9-0e04-42ba-bab7-20039b28e593.png" width="200" height="400">    
+<img src="https://user-images.githubusercontent.com/66485679/145372205-64f1da03-5cdd-402d-8a5b-86ee3b5f6f53.png">        <img src="https://user-images.githubusercontent.com/66485679/145372273-70442723-e6a9-495a-a88b-be4ffafd2045.png">       <img src="https://user-images.githubusercontent.com/66485679/145372019-6ff0a4d1-e76f-4d93-b937-e38bc9bf1ae0.png" >   
+<img src="https://user-images.githubusercontent.com/66485679/145372353-f5b36b31-bff6-4df2-aab6-5c8a68ebc7a8.png" >  <img src="https://user-images.githubusercontent.com/66485679/145372457-38c63c54-d290-4401-b8ae-35e5d1604dd7.png" >    
 
 
 ## Frameworks
