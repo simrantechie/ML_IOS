@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Allow for demo purpose only.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow for demo purpose only.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Allow for demo purpose only.</string>
 </dict>
 </plist>

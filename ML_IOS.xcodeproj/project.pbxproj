@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A5BC42F3D2A89622B57D5CC /* Pods_ML_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2F67B09D809A61C293BD7D /* Pods_ML_IOS.framework */; };
+		84095632275882D700BE43B2 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84095631275882D700BE43B2 /* FaceDetectionViewController.swift */; };
+		841B2669275651FD00572A37 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B2668275651FD00572A37 /* DashboardViewController.swift */; };
+		841B2670275655BF00572A37 /* TextDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B266F275655BF00572A37 /* TextDetectionViewController.swift */; };
+		8451883F2761EFD80002695C /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8451883E2761EFD80002695C /* ImageExtension.swift */; };
+		8456090B275E39C200F785EF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8456090A275E39C200F785EF /* Inceptionv3.mlmodel */; };
+		8484D2312757A60A00B20B96 /* SpeechDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8484D2302757A60A00B20B96 /* SpeechDetectionViewController.swift */; };
 		84AFEB542754D9E70039E991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFEB532754D9E70039E991 /* AppDelegate.swift */; };
 		84AFEB562754D9E70039E991 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFEB552754D9E70039E991 /* SceneDelegate.swift */; };
-		84AFEB582754D9E70039E991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFEB572754D9E70039E991 /* ViewController.swift */; };
+		84AFEB582754D9E70039E991 /* ObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFEB572754D9E70039E991 /* ObjectDetectionViewController.swift */; };
 		84AFEB5B2754D9E70039E991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFEB592754D9E70039E991 /* Main.storyboard */; };
 		84AFEB5D2754D9E80039E991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFEB5C2754D9E80039E991 /* Assets.xcassets */; };
 		84AFEB602754D9E80039E991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFEB5E2754D9E80039E991 /* LaunchScreen.storyboard */; };
+		84F2E45B275F82E5004DC001 /* BarcodeDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2E45A275F82E5004DC001 /* BarcodeDetectionViewController.swift */; };
+		84F2E45F275F8377004DC001 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2E45E275F8377004DC001 /* WebviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3392828CD3D878BD43ABC321 /* Pods-ML_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML_IOS.release.xcconfig"; path = "Target Support Files/Pods-ML_IOS/Pods-ML_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		84095631275882D700BE43B2 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
+		841B2668275651FD00572A37 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		841B266F275655BF00572A37 /* TextDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetectionViewController.swift; sourceTree = "<group>"; };
+		8451883E2761EFD80002695C /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		8456090A275E39C200F785EF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		8484D2302757A60A00B20B96 /* SpeechDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechDetectionViewController.swift; sourceTree = "<group>"; };
 		84AFEB502754D9E70039E991 /* ML_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ML_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AFEB532754D9E70039E991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AFEB552754D9E70039E991 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84AFEB572754D9E70039E991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84AFEB572754D9E70039E991 /* ObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetectionViewController.swift; sourceTree = "<group>"; };
 		84AFEB5A2754D9E70039E991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84AFEB5C2754D9E80039E991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84AFEB5F2754D9E80039E991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84AFEB612754D9E80039E991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F2E45A275F82E5004DC001 /* BarcodeDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeDetectionViewController.swift; sourceTree = "<group>"; };
+		84F2E45E275F8377004DC001 /* WebviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
+		9BCBEDAEBD84A8B08AA3CD47 /* Pods-ML_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML_IOS.debug.xcconfig"; path = "Target Support Files/Pods-ML_IOS/Pods-ML_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		AA2F67B09D809A61C293BD7D /* Pods_ML_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5BC42F3D2A89622B57D5CC /* Pods_ML_IOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81F03CD76580E8403E2770A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA2F67B09D809A61C293BD7D /* Pods_ML_IOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84095630275882C000BE43B2 /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				84095631275882D700BE43B2 /* FaceDetectionViewController.swift */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		841B266C2756559200572A37 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				84AFEB572754D9E70039E991 /* ObjectDetectionViewController.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		841B266D2756559C00572A37 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				841B2668275651FD00572A37 /* DashboardViewController.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		841B266E275655A700572A37 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				841B266F275655BF00572A37 /* TextDetectionViewController.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		841B2672275655D200572A37 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8451883E2761EFD80002695C /* ImageExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		841B2673275655E200572A37 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				8456090A275E39C200F785EF /* Inceptionv3.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		841B2675275655F000572A37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84AFEB592754D9E70039E991 /* Main.storyboard */,
+				84AFEB5E2754D9E80039E991 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		841B26762756560800572A37 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84AFEB532754D9E70039E991 /* AppDelegate.swift */,
+				84AFEB552754D9E70039E991 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8484D22F2757A5DF00B20B96 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				8484D2302757A60A00B20B96 /* SpeechDetectionViewController.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
 		84AFEB472754D9E70039E991 = {
 			isa = PBXGroup;
 			children = (
 				84AFEB522754D9E70039E991 /* ML_IOS */,
 				84AFEB512754D9E70039E991 /* Products */,
+				9DBAD635575BC3798EB44E96 /* Pods */,
+				81F03CD76580E8403E2770A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +161,38 @@
 		84AFEB522754D9E70039E991 /* ML_IOS */ = {
 			isa = PBXGroup;
 			children = (
-				84AFEB532754D9E70039E991 /* AppDelegate.swift */,
-				84AFEB552754D9E70039E991 /* SceneDelegate.swift */,
-				84AFEB572754D9E70039E991 /* ViewController.swift */,
-				84AFEB592754D9E70039E991 /* Main.storyboard */,
+				84F2E459275F82CF004DC001 /* Barcode */,
+				84095630275882C000BE43B2 /* Face */,
+				8484D22F2757A5DF00B20B96 /* Speech */,
+				841B26762756560800572A37 /* Resources */,
+				841B2675275655F000572A37 /* View */,
+				841B2673275655E200572A37 /* MLModels */,
+				841B2672275655D200572A37 /* Extensions */,
+				841B266E275655A700572A37 /* Text */,
+				841B266D2756559C00572A37 /* Dashboard */,
+				841B266C2756559200572A37 /* Object */,
 				84AFEB5C2754D9E80039E991 /* Assets.xcassets */,
-				84AFEB5E2754D9E80039E991 /* LaunchScreen.storyboard */,
 				84AFEB612754D9E80039E991 /* Info.plist */,
 			);
 			path = ML_IOS;
+			sourceTree = "<group>";
+		};
+		84F2E459275F82CF004DC001 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				84F2E45A275F82E5004DC001 /* BarcodeDetectionViewController.swift */,
+				84F2E45E275F8377004DC001 /* WebviewViewController.swift */,
+			);
+			path = Barcode;
+			sourceTree = "<group>";
+		};
+		9DBAD635575BC3798EB44E96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BCBEDAEBD84A8B08AA3CD47 /* Pods-ML_IOS.debug.xcconfig */,
+				3392828CD3D878BD43ABC321 /* Pods-ML_IOS.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AFEB642754D9E80039E991 /* Build configuration list for PBXNativeTarget "ML_IOS" */;
 			buildPhases = (
+				2209D3F1DFFFCD46B6625C3D /* [CP] Check Pods Manifest.lock */,
 				84AFEB4C2754D9E70039E991 /* Sources */,
 				84AFEB4D2754D9E70039E991 /* Frameworks */,
 				84AFEB4E2754D9E70039E991 /* Resources */,
+				FF0ECF8E7E73FB2C3F2B4ED7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +262,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2209D3F1DFFFCD46B6625C3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0ECF8E7E73FB2C3F2B4ED7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML_IOS/Pods-ML_IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML_IOS/Pods-ML_IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML_IOS/Pods-ML_IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AFEB4C2754D9E70039E991 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84AFEB582754D9E70039E991 /* ViewController.swift in Sources */,
+				8456090B275E39C200F785EF /* Inceptionv3.mlmodel in Sources */,
+				84F2E45B275F82E5004DC001 /* BarcodeDetectionViewController.swift in Sources */,
+				841B2670275655BF00572A37 /* TextDetectionViewController.swift in Sources */,
+				84F2E45F275F8377004DC001 /* WebviewViewController.swift in Sources */,
+				8451883F2761EFD80002695C /* ImageExtension.swift in Sources */,
+				84AFEB582754D9E70039E991 /* ObjectDetectionViewController.swift in Sources */,
+				841B2669275651FD00572A37 /* DashboardViewController.swift in Sources */,
 				84AFEB542754D9E70039E991 /* AppDelegate.swift in Sources */,
 				84AFEB562754D9E70039E991 /* SceneDelegate.swift in Sources */,
+				8484D2312757A60A00B20B96 /* SpeechDetectionViewController.swift in Sources */,
+				84095632275882D700BE43B2 /* FaceDetectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +463,7 @@
 		};
 		84AFEB652754D9E80039E991 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BCBEDAEBD84A8B08AA3CD47 /* Pods-ML_IOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +482,7 @@
 		};
 		84AFEB662754D9E80039E991 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3392828CD3D878BD43ABC321 /* Pods-ML_IOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
